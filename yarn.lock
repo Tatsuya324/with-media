@@ -2413,6 +2413,11 @@ class-utils@^0.3.5:
     isobject "^3.0.0"
     static-extend "^0.1.1"
 
+claymorphism-css@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/claymorphism-css/-/claymorphism-css-1.0.5.tgz#82a28fc59d5ed39b088fad83b399c50746569ec4"
+  integrity sha512-jbEmVsboW70OHgXRaWLWpVZT22AdrsV8kDWdalxPyqsAx5GJnBFMhHkrMAPof9PqB0sMx/axSXNJshd+OQgT3g==
+
 clean-css@4.2.x:
   version "4.2.4"
   resolved "https://registry.yarnpkg.com/clean-css/-/clean-css-4.2.4.tgz#733bf46eba4e607c6891ea57c24a989356831178"

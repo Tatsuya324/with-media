@@ -1,7 +1,7 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import LP from "../page/LandingPage.vue";
-import EnrollPage from "../page/EnrollPage.vue";
+// import LP from "../page/LandingPage.vue";
+import RegisterPage from "../page/RegisterPage.vue";
 import TweetPage from "../page/TweetPage.vue";
 
 Vue.use(VueRouter);
@@ -9,13 +9,8 @@ Vue.use(VueRouter);
 const routes = [
   {
     path: "/",
-    name: "LP",
-    component: LP,
-  },
-  {
-    path: "/enroll",
-    name: "EnrollPage",
-    component: EnrollPage,
+    name: "RegisterPage",
+    component: RegisterPage,
   },
   {
     path: "/:tweetid",
