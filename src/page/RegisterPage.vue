@@ -69,7 +69,7 @@ export default {
 
         let url = location.href;
 
-        this.share_url = url + hashtag_id;
+        this.share_url = url + "?tweet_id=" + hashtag_id;
         console.log(this.share_url);
         this.modal_flag = true;
       }
