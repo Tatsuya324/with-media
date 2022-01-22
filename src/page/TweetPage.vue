@@ -91,15 +91,19 @@ export default {
       this.post_list = disp_list;
     },
     postTweet() {
-      if(this.tweet_text === ""){
-        alert("ツイート内容がありません")
-      }else{
+      if (this.tweet_text === "") {
+        alert("ツイート内容がありません");
+      } else {
         let shareUrl =
           "https://twitter.com/intent/tweet?text=" +
           this.tweet_text +
           "&url=&hashtags=" +
           this.tags;
-        window.open(shareUrl, "twitter", "top=200,left=300,width=600,height=400");
+        window.open(
+          shareUrl,
+          "twitter",
+          "top=200,left=300,width=600,height=400"
+        );
         firebase.database().ref(this.url_id).push({
           content: this.tweet_text,
         });
