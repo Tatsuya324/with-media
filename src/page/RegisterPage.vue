@@ -76,6 +76,7 @@ export default {
     },
     copy_share_url() {
       navigator.clipboard.writeText(this.share_url);
+      alert("URLをコピーしました");
     },
   },
 };
