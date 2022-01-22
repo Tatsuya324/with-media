@@ -1,4 +1,5 @@
-// module.exports = {
-//     publicPath: "/with-media",
-//     outputDir: "docs",
-//   };
+module.exports = {
+    outputDir: "docs",
+    assetsDir: "./",
+    publicPath: "./",
+  };

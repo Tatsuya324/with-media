@@ -51,7 +51,7 @@ export default {
     };
   },
   created() {
-    this.url_id = this.$route.query.tweet_id;
+    this.url_id = this.$route.params.tweetid;
 
     firebase
       .database()
