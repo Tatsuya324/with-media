@@ -75,8 +75,10 @@ export default {
       }
     },
     copy_share_url() {
-      navigator.clipboard.writeText(this.share_url);
-      alert("URLをコピーしました");
+      console.log(this.share_url)
+      navigator.clipboard.writeText(this.share_url).then(function(){
+        alert("URLをコピーしました");
+      });
     },
   },
 };
